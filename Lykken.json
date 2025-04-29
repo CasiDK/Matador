@@ -1,0 +1,188 @@
+{
+    "BØDE":[
+        {
+            "tekst":"De har modtaget Deres tandlægeregning. Betal kr. 2.000",
+            "type":"BØDE",
+            "id":5,
+            "antal":1,
+            "gevinst":-2000
+        },
+        {
+            "tekst":"Betal kr. 3000 for reparation af Deres vogn.",
+            "type":"BØDE",
+            "id":17,
+            "antal":2,
+            "gevinst":-3000
+        },
+        {
+            "tekst":"De har været en tur i udlandet og haft for mange cigaretter med hjem. Betal told kr. 200",
+            "type":"BØDE",
+            "id":18,
+            "antal":1,
+            "gevinst":-200
+        },
+        {
+            "tekst":"De har kørt frem for 'Fuld Stop'. Betal kr. 1.000 i bøde",
+            "type":"BØDE",
+            "id":19,
+            "antal":1,
+            "gevinst":-1000
+        },
+        {
+            "tekst":"De har måttet vedtage en parkeringsbøde. Betal kr. 200 i bøde",
+            "type":"BØDE",
+            "id":20,
+            "antal":1,
+            "gevinst":-200
+        },
+        {
+            "tekst":"Betal Deres bilforsikring kr. 1.000",
+            "type":"BØDE",
+            "id":21,
+            "antal":1,
+            "gevinst":-1000
+        }
+
+    ],
+    "RYK":[
+        {
+            "tekst":"Tag ind på Rådhuspladsen",
+            "type": "RYK",
+            "modtag_penge_over_start":true,
+            "id":1,
+            "destination":40,
+            "antal":1
+        },
+        {
+            "tekst":"Gå i fængsel. Ryk direkte til fængslet. Selv om De passerer 'Start', indkasserer de ikke kr. 4.000",
+            "type": "FÆNGSEL",
+            "modtag_penge_over_start":false,
+            "destination":11,
+            "id":4,
+            "antal":2
+        },
+        {
+            "tekst":"Ryk frem til Frederiksberg Allé. Hvis De passerer 'Start', indkassér kr. 4.000",
+            "type": "RYK",
+            "modtag_penge_over_start":true,
+            "id":6,
+            "destination":12,
+            "antal":1
+        },
+        {
+            "tekst":"Ryk frem til Grønningen. Hvis De passerer 'Start', indkassér kr. 4.000",
+            "type": "RYK",
+            "modtag_penge_over_start":true,
+            "id":7,
+            "destination":25,
+            "antal":1
+        },
+        {
+            "tekst":"Ryk frem til 'Start'",
+            "type": "RYK",
+            "modtag_penge_over_start":true,
+            "id":8,
+            "destination":0,
+            "antal":1
+        },
+        {
+            "tekst":"Tag med Øresundsbåden. Hvis De passerer 'Start', indkassér kr. 4.000",
+            "type": "RYK",
+            "modtag_penge_over_start":true,
+            "id":9,
+            "destination":6,
+            "antal":1
+        },
+        {
+            "tekst":"Ryk tre felter tilbage.",
+            "type": "RYK",
+            "modtag_penge_over_start":false,
+            "id":10,
+            "destination":-3,
+            "antal":1
+        }
+    ],
+    "GEVINST":[
+        {
+            "tekst":"Modtag udbytte af Deres aktier, kr. 1.000",
+            "type": "GEVINST",
+            "modtag_penge_over_start":null,
+            "id":2,
+            "antal":4,
+            "gevinst":1000
+        },
+        {
+            "tekst":"De havde en række med elleve rigtige i tipning. Modtag kr. 1.000",
+            "type": "GEVINST",
+            "modtag_penge_over_start":null,
+            "id":3,
+            "antal":1,
+            "gevinst":1000
+        },
+        {
+            "tekst":"Grundet dyrtiden har De fået gageforhøjelse. Modtag kr. 1.000",
+            "type": "GEVINST",
+            "id":12,
+            "antal":1,
+            "gevinst":1000
+        },
+        {
+            "tekst":"De har vundet i Klasselotteriet. Modtag kr. 500",
+            "type": "GEVINST",
+            "id":13,
+            "antal":1,
+            "gevinst":500
+        },
+        {
+            "tekst":"Det er Deres fødselsdag. Modtag af hver medspiller kr. 200",
+            "type": "GEVINST",
+            "id":14,
+            "antal":1,
+            "gevinst":200
+        },
+        {
+            "tekst":"Kommunen har eftergivet et kvartals skat. Hæv i banken kr. 1.000",
+            "type": "GEVINST",
+            "id":15,
+            "antal":1,
+            "gevinst":3000
+        },
+        {
+            "tekst":"Værdien af egen avl fra nyttehaven udgør kr. 200, som De modtager af banken.",
+            "type": "GEVINST",
+            "id":16,
+            "antal":1,
+            "gevinst":200
+        }
+    ],
+    "PRISSTIGNING":[
+        {
+            "tekst":"Oliepriserne er steget, og De skal betale:\n kr. 500 pr. hus,\n kr. 2.000 pr. hotel",
+            "type":"PRISSTIGNING",
+            "id":22,
+            "antal":1,
+            "stigninger":{
+                "hus":500,
+                "hotel":2000
+            }  
+        },
+        {
+            "tekst":"Ejendomsskatterne er steget, og De skal betale:\n kr. 800 pr. hus,\n kr. 2.300 pr. hotel",
+            "type":"PRISSTIGNING",
+            "id":23,
+            "antal":1,
+            "stigninger":{
+                "hus":800,
+                "hotel":2300
+            }
+        }
+    ],
+    "BENÅDELSE":[
+        {
+            "tekst":"I anledning af kongens fødselsdag benådes De herved for fængsel. Dette kort kan opbevares, indtil De får brug for det, eller De kan sælge det.",
+            "type": "BENÅDELSE",
+            "id":11,
+            "antal":2
+        }
+    ]
+}

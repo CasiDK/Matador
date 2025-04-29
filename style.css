@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+h5 {
+  color: rgb(6, 6, 133);
+  font-family: verdana;
+  font-size: 300%;
+}
+
+canvas {
+  display: block;
+}
